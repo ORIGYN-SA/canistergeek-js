@@ -1,13 +1,13 @@
 {
-  "name": "canistergeek-ic-js",
-  "version": "1.0.0",
+  "name": "canistergeek-js",
+  "version": "1.0.1",
   "description": "Canistergeek Javascript Library",
   "main": "./lib/es5/index.js",
-  "author": "Canistergeek <support@usergeek.com>",
+  "author": "fermartz",
   "directories": {
     "lib": "lib"
   },
-  "homepage": "https://github.com/usergeek/canistergeek-ic-js#readme",
+  "homepage": "https://github.com/origyn-sa/canistergeek-js#readme",
   "keywords": [],
   "files": [
     "lib/**/*"

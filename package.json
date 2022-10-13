@@ -1,6 +1,6 @@
 {
   "name": "canistergeek-js",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Canistergeek Javascript Library",
   "main": "./lib/es5/index.js",
   "author": "fermartz",
@@ -15,10 +15,9 @@
   "scripts": {
     "clean": "rm -rf lib",
     "prebuild": "npm run clean",
-    "build": "tsc --project tsconfig.json && npm run copy_did && npm run copy_less && npm run copy_lib",
+    "build": "tsc --project tsconfig.json && npm run copy_did && npm run copy_less",
     "copy_did": "cp src/api/*.did.d.ts lib/es5/api",
-    "copy_less": "cp src/ui/*.less lib/es5/ui",
-    "copy_lib": "cp -r lib ~/projects/canistergeek-demo-ui/node_modules/canistergeek-ic-js"
+    "copy_less": "cp src/ui/*.less lib/es5/ui"
   },
   "dependencies": {
     "@dfinity/agent": "^0.11.3",

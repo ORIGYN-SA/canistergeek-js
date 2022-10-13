@@ -2,11 +2,11 @@
 
 Canistergeek-JS is Javascript library that fetches monitoring data and log messages from canisters, performs all necessary calculations and displays it on a webpage.
 
-Canistergeek-JS should be used together with [Canistergeek-IC-Motoko](https://github.com/usergeek/canistergeek-ic-motoko) or [Canistergeek-IC-Rust](https://github.com/usergeek/canistergeek_ic_rust) - open-source libraries for Internet Computer to track your project canisters cycles and memory status.
+Canistergeek-JS should be used together with [Canistergeek-Motoko](https://github.com/ORIGYN-SA/canistergeek-motoko) - open-source library for Internet Computer to track your project canisters cycles and memory status.
 
 ### Usage
 
-Full working example how to use Canistergeek-JS library can be found in [Canistergeek Demo UI](https://github.com/usergeek/canistergeek-demo-ui) repository.
+Full working example how to use Canistergeek-JS library can be found in [Canistergeek Demo UI](https://github.com/ORIGYN-SA/canistergeek-ui) repository.
 
 ### Configuration
 

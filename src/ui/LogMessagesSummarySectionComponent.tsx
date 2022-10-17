@@ -40,13 +40,13 @@ export const LogMessagesSummarySectionComponent = () => {
                     const canisterName = record.canister.name ? record.canister.name : record.canister.canisterId
                     return canisterName
                 }}/>
-                <Table.Column<TableItemType> title={"Messages"} key="Messages" width={"28%"} render={(text, record) => {
+                <Table.Column<TableItemType> title={"Logs"} key="Logs" width={"28%"} render={(text, record) => {
                     return record.data.count
                 }}/>
-                <Table.Column<TableItemType> title={"First Message Time"} key="First Message Time" width={"28%"} render={(text, record) => {
+                <Table.Column<TableItemType> title={"First Log Time"} key="First Log Time" width={"28%"} render={(text, record) => {
                     return <TimeValueComponent value={record.data.firstTimeNanos}/>
                 }}/>
-                <Table.Column<TableItemType> title={"Last Message Time"} key="Last Message Time" width={"28%"} render={(text, record) => {
+                <Table.Column<TableItemType> title={"Last Log Time"} key="Last Log Time" width={"28%"} render={(text, record) => {
                     return <TimeValueComponent value={record.data.lastTimeNanos}/>
                 }}/>
             </Table>

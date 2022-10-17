@@ -202,7 +202,7 @@ export const LogMessagesHistorySectionComponent = (props: Props) => {
                 <PageContent.CardSection></PageContent.CardSection>
                 <Row gutter={12}>
                     <Col span={4}>
-                        <Form.Item label={"Message Filter (slow, case sensitive)"}>
+                        <Form.Item label={"Log Filter (slow, case sensitive)"}>
                             <Input onChange={onChangeLineFilter} value={lineFilterString} allowClear maxLength={LINE_FILTER_MAX_LENGTH}/>
                         </Form.Item>
                     </Col>
